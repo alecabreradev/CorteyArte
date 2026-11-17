@@ -1,25 +1,15 @@
-// 1. Cargar variables de entorno (.env)
-//require("dotenv").config();  // importa las rutas definidas en routes/reservas.js.
-
-// 2. Importar dependencias
 const express = require("express");
-//const mongoose = require("mongoose");
+const cors = require("cors");
+const reservasRouter = require("./routes/reservas");
 
-// 3. Crear instancia de Express
 const app = express();
 
-// 4. Importar las rutas
-const reservasRouter = require("./routes/reservas"); // <-- aquí importas tus rutas
+app.use(cors()); // lets the React website (another port/domain) call the API
+app.use(express.json());
 
-// 5. Middleware para analizar JSON
-app.use(express.json());  //Asume que esas rutas estarán disponibles bajo el prefijo /api.
+// All routes live under /api, e.g. GET http://localhost:3000/api/reservas
 app.use("/api", reservasRouter);
 
-module.exports = app;  // 👈 Exportamos app para usarlo en index.js
+app.get("/api/health", (req, res) => res.json({ status: "ok" }));
 
-// Por ejemplo. En reservas.js defines una ruta router.get("/reservas")
-//              En el navegador o Android accedes a http://localhost:3000/api/reservas
-
-
-
-
+module.exports = app;

@@ -1,20 +1,19 @@
 {
-  "name": "api-reservas",
+  "name": "corte-y-arte-api",
   "version": "1.0.0",
-  "description": "API REST de reservas con Node.js, Express y MongoDB",
-  "main": "app.js",
+  "description": "Reservations REST API for Corte & Arte (Node.js, Express, MongoDB)",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "nodejs",
     "express",
     "mongodb",
     "mongoose",
-    "api-rest"
+    "rest-api"
   ],
-  "author": "Corte y Arte",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^2.2.0",
