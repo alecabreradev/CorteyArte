@@ -85,4 +85,4 @@ React · React Router · Vite · JavaScript · CSS · Kotlin · Jetpack Compose 
 
 ## Author
 
-Alejandro Cabrera Mateo · [GitHub](https://github.com/alecabreradev) · [LinkedIn](https://linkedin.com/in/alejandro-cabrera-mateo)
+Alejandro Cabrera Mateo · [GitHub](https://github.com/alecabreradev) · [LinkedIn](https://linkedin.com/in/alejandro-cabrera-mateo-6761b030b)
