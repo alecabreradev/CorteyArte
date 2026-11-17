@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Proyecto_Junio_2025"
+rootProject.name = "CorteYArte"
 include(":app")
  

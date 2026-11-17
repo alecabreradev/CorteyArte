@@ -8,10 +8,15 @@ Booking system for a hair salon, made of three parts that work together:
 
 Customers can browse the salon's rooms and services and book an appointment from the website or the app. From the admin area, bookings can be listed, searched by number, edited and deleted.
 
-<!-- Add screenshots here, e.g.:
-![Website](docs/web-home.png)
-![Android app](docs/android.png)
--->
+### Website (React)
+
+![Website home page](docs/web-home.png)
+
+![Admin panel with the bookings from the API](docs/web-admin.png)
+
+### Android app
+
+![Android app screens: login, rooms, booking form, admin, location and menu](docs/android.png)
 
 ## Architecture
 

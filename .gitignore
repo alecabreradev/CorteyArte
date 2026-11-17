@@ -21,6 +21,7 @@ android/app/build/
 *.iml
 captures/
 .externalNativeBuild/
+.kotlin/
 .cxx/
 
 # OS / editor
