@@ -1,0 +1,18 @@
+{
+  "name": "corte-y-arte-web-legacy",
+  "version": "1.0.0",
+  "description": "Original website (HTML, CSS, JS) served by Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Corte & Arte",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "morgan": "^1.10.0"
+  }
+}

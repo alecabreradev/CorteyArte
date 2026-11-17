@@ -1,0 +1,29 @@
+{
+  "name": "api-reservas",
+  "version": "1.0.0",
+  "description": "API REST de reservas con Node.js, Express y MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "api-rest"
+  ],
+  "author": "Corte y Arte",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
